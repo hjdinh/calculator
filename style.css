@@ -1,0 +1,32 @@
+.calculator {
+    outline: 1px solid black;
+    height: 650px;
+    width: 450px;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.screen {
+    outline: 1px solid black;
+    height: 100px;
+    width: 400px;
+    margin: auto;
+}
+
+.buttons {
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding-top: 20px;
+}
+
+.btn {
+    font-size: 30px;
+}
+
+.span {
+    grid-column: span 2;
+}
